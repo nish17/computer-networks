@@ -10,6 +10,7 @@ int main()
   cout << "Enter the crc generator\n";
   getline(cin, crc);
   // int m = msg.length();
+  //run with g++ --std=c++11
   int n = crc.length();
   for (int i = 0; i <= encoded.length() - n;)
   {
